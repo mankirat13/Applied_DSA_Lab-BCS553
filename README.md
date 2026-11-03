@@ -49,6 +49,6 @@ Lab_Assignments_1_to_15.pdf   (all lab reports in one file)
 
 ```
 cd Assignment_01/Task_01
-javac Main.java
-java Main
+javac main.java
+java main
 ```
