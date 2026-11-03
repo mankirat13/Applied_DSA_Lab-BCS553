@@ -1,0 +1,23 @@
+// Name: Mankirat Singh
+// ID: BCS2024542
+// Roll No: 24103032571
+// Assignment 5, Task 1
+// Question: Write the method int linearSearch(int[] a, int key) that
+// returns the index of key, or -1 when key is not in the array.
+// Call it with {45, 67, 80, 52, 90} and key 80, and print the result.
+
+public class main {
+    static int linearSearch(int[] a, int key) {
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == key) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] a = {45, 67, 80, 52, 90};
+        System.out.println(linearSearch(a, 80));
+    }
+}
